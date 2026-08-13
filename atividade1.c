@@ -13,6 +13,6 @@ int main() {
     scanf("%f", &nota2);
 
     media = (nota1 + nota2) / 2;
-    printf("A media e: %f. A nota1:%f. nota2:%f", media, nota1, nota2);
+    printf("A media e: %.2f. A nota1:%.2f. nota2:%.2f", media, nota1, nota2);
     return 0;
 }
